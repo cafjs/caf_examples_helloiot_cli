@@ -1,0 +1,11 @@
+{
+  "name": "caf_examples_helloiot_cli",
+  "description": "Cloud Assistants minimal IoT example (client device)",
+  "version": "0.0.1",
+  "author": "Antonio Lain <antlai@cafjs.com>",
+  "dependencies": {
+      "caf_iot_cli" : ">= 0.0.1"
+   },
+  "main": "index",
+  "engines": { "node": ">= 0.8.1 " }
+}
