@@ -12,7 +12,7 @@ The idea is that a device (e.g., a Raspberry Pi using GPIO pins to interact with
 
 ## API
 
-    start.js 3H5SHHW56 http://helloiot.cafjs.com 
+    start.js http://helloiot.cafjs.com/iot/3H5SHHW56 
     
 where `3H5SHHW56` is a unique identifier for this device and `http://helloiot.cafjs.com` is the base address of the service we are connecting to.
 

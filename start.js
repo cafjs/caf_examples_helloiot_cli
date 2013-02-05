@@ -1,10 +1,9 @@
 #!/usr/bin/env node
 var client = require('./index.js');
-if (process.argv.length != 2) {
-    console.log('Error: Wrong number of arguments: node start.js deviceId ' +
-                ' baseURL, e.g.: http://helloiot.cafjs.com/');
+if (process.argv.length != 3) {
+    console.log('Error: Wrong number of arguments: start.js url ' +
+                ' where url is, e.g.: http://helloiot.cafjs.com/iot/<device_id>');
 } else {
-    var config = {deviceId: process.argv[2],
-                  baseURL: parseInt(process.argv[3])};
+    var config = {url: process.argv[2]};
     client.start(config);
 }
