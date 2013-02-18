@@ -6,7 +6,7 @@
       "version": "0.0.1",
       "dependencies": {
         "async": {
-          "version": "0.2.1"
+          "version": "0.1.22"
         },
         "request": {
           "version": "2.12.0",
@@ -29,6 +29,20 @@
             },
             "mime": {
               "version": "1.2.7"
+            }
+          }
+        }
+      }
+    },
+    "caf_piface": {
+      "version": "0.0.1",
+      "dependencies": {
+        "spi": {
+          "version": "0.0.1",
+          "from": "https://github.com/RussTheAerialist/node-spi/tarball/master",
+          "dependencies": {
+            "bindings": {
+              "version": "1.0.0"
             }
           }
         }
